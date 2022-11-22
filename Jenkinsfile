@@ -6,9 +6,9 @@ steps{
 echo 'Buliding..'
 }
 }
-stage('Test'){
+stage('Run'){
 steps{
-echo 'Testing..'
+echo 'Runing..'
 }
 }
 stage ('Deploy'){
